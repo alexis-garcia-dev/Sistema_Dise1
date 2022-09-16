@@ -70,20 +70,18 @@
                     </a>
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('productos.index') }}">
-                        <i class="ni ni-tv-2 text-primary"></i> {{ __('Productos') }}
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('categorias.index') }}">
-                        <i class="ni ni-tv-2 text-primary"></i> {{ __('Categorias') }}
-                    </a>
-                </li>
+                    
                 <li class="nav-item">
                 
                     <a class="nav-link" href="{{ route('profile.edit') }}">
                     <i class="ni ni-single-02"></i>{{ __('Perfil De Usuario') }}
+                    </a>
+                </li>
+                      
+                <li class="nav-item">
+                
+                    <a class="nav-link" href="proyectos">
+                    <i class="ni ni-single-02"></i>{{ __('Proyectos') }}
                     </a>
                 </li>
                 

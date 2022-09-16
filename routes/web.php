@@ -35,3 +35,4 @@ Route::group(['middleware' => 'auth'], function () {
 
 Route::resource('productos', 'App\Http\Controllers\ProductoController');
 Route::resource('categorias', 'App\Http\Controllers\CategoriaController');
+Route::resource('proyectos', 'App\Http\Controllers\ProyectoController');
